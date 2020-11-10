@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+html{
+    font-size: 50%; //50% --> 8px
+}
+@media(min-width:600px){
+    html{
+        font-size: 50%; //100% --> 16px
+    }   
+}
+@media(min-width:951px){
+    html{
+        font-size: 80%; //100% --> 16px
+    }   
+}
